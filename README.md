@@ -1,1 +1,0 @@
-# fayyshop.io
