@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/spike.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Fantasy', serif ;
+}
+
+nav {
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Fantasy', serif ;
+}
+
+section {
+    margin: 20px;
+    position: relative;
+    font-family: 'Fantasy', serif ;
+    text-align: center;
+}
+
+.diamond-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Fantasy', serif ;
+            background-color: #ffa500;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 110px;
+            height: 50px;
+        }
+
+        .diamond-button span {
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+            font-family: 'Fantasy', serif ;
+            color: #fff;
+        }
+        
+        .total-section {
+            margin-top: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .total-label {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Fantasy', serif ;
+        }
+
+        .total-amount {
+            font-size: 24px;
+            color: #4CAF50;
+            font-family: 'Fantasy', serif ;
+        }
+
+        .clear-button {
+            display: inline-block;
+            padding: 15px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Fantasy', serif ;
+            background-color: #FF0000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .checkout-button {
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Fantasy', serif; /* Tambahkan tanda kutip dan perbaiki penulisan */
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+        .purchase-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .purchase-list-item {
+            margin: 5px 0;
+        }
+        
+ footer {
+        margin-top: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: left;
+        }

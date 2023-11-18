@@ -3,44 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Fayyshop.com</title>
+    <title>Toko Top Up</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>TOKO TOP UP</h1>
-        </header>
-        <section id="profil">
-            <img src="logo.jpg" alt="Fayzaa Shop">
-            <h2>Fayy Shop</h2>
-            <p>Menyediakan Kebutuhan Top Up The Spike</p>
-        </section>
-        <section id="kontak">
-            <h2>INFO CONTACT</h2>
-            <p>𝙰𝙳𝙼𝙸𝙽 𝟷 : <a href="https://wa.me/17197668903">𝙷𝚄𝙱𝚄𝙽𝙶𝙸 𝙲𝚂 𝟷</a></p>
-            <p>𝙰𝙳𝙼𝙸𝙽 𝟸 : <a href="https://wa.me/6281212211650">𝙷𝚄𝙱𝚄𝙽𝙶𝙸 𝙲𝚂 𝟸</a></p>
-            <p>𝙶𝙲𝟸 𝚂𝙿𝙸𝙺𝙴 : <a href="https://s.id/pricelistcodea">𝙶𝙲 𝚃𝙷𝙴 𝚂𝙿𝙸𝙺𝙴</a></a></p>
-        </section>
-        <section id="pendidikan">
-            <h2>NOTE</h2>
-            <p>Jika tidak ada kepentingan jangan hubungi admin, admin hanya merespon jiak ada yang order.</p>
-        </section>
-        <section id="keterampilan">
-            <h2>PRODUCT</h2>
-            <ul>
-                <li><button>
-    <a href="https://s.id/pricelistcodea" target="_blank">TOP UP BALL</a>
-</button></li>
-<li><button><a href="https://wa.me/6281212211650?text=Halo,+saya+mau+joki+karakter" target="_blank">JOKI GACHA KARAKTER</a></button></li>
-                <li><button><a href="https://wa.me/6281212211650?text=Halo,+saya+mau+joki+story/turnamen" target="_blank">JOKI TURNAMEN/STORY</a></button></li>
-            </ul>
-        </section>
-        <section id="donasi">
-            <img src="donasi.jpg" alt="Fayzaa Shop" width="350" height="350">
-            <h2>Donasi</h2>
-            <p>Berapapun nominalnya ini sangat berarti bagi kami.</p>
-        </section>
-    </div>
+
+    <header>
+        <marquee><h1>WELCOME TO FAYY SHOP TOKO TOP UP THE SPIKE MURAH AMAN TERPERCAYA !!!</h1></marquee>
+    </header>
+
+    <nav>
+        <a href="https://whatsapp.com/channel/0029Va9aEsJ05MUflb3bIT0D">Group</a>
+        <a href="https://wa.me/17197668903">Whatsapp</a>
+        <a href="https://instagram.com/7superstarstore?igshid=MTk0NTkyODZkYg==">Instagram</a>
+        <a href="https://srink.co/433dac">Donate</a>
+    </nav>
+
+    <section><br><br>
+        
+        <a href="#" class="diamond-button" onclick="addToTotal('40K BALL',10000)">
+            40.000 BALL
+            <span>Rp 10,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('50K BALL',15000)">
+            50.000 BALL
+            <span>Rp 15,000</span>
+        </a>
+        
+<a href="#" class="diamond-button" 
+onclick="addToTotal('60K BALL',20000)">
+            60.000 BALL
+            <span>Rp 20,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('70K BALL',25000)">
+            70.000 BALL
+            <span>Rp 25,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('80K BALL',30000)">
+            80.000 BALL
+            <span>Rp 30,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('90K BALL',35000)">
+            90.000 BALL
+            <span>Rp 35,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('3 SUMMER',10000)">
+            3 SUMMER
+            <span>Rp 10,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('3 SUPERSTAR',10000)">
+            3 SUPERSTAR
+            <span>Rp 10,000</span>
+        </a>
+        
+        <a href="#" class="diamond-button" 
+onclick="addToTotal('3 ALLSTAR',10000)">
+            3 ALLSTAR
+            <span>Rp 10,000</span>
+        </a>
+        
+                <a href="#" class="diamond-button" 
+onclick="addToTotal('3 RTP',10000)">
+            3 RTP
+            <span>Rp 10,000</span>
+        </a>
+        
+                <a href="#" class="diamond-button" 
+onclick="addToTotal('TURNAMEN',10000)">
+            TURNAMEN
+            <span>Rp 10,000</span>
+        </a>
+        
+                <a href="#" class="diamond-button" 
+onclick="addToTotal('STORY',10000)">
+            STORY
+            <span>Rp 10,000</span>
+        </a>
+        <!-- Tambahkan lebih banyak tombol diamond jika diperlukan -->
+        
+        <!-- Total Pembelian -->
+        <div class="total-section">
+            <p class="total-label">Total Pembelian:</p>
+            <ul class="purchase-list" id="purchaseList"></ul>
+            <p class="total-amount" id="totalAmount">Rp 0</p>
+            <a href="https://bit.ly/46CM6u1">
+                <button class="checkout-button">Checkout</button>
+            </a>
+            <!-- Tombol Hapus Pembelia-->
+            <button class="clear-button" onclick="clearTotal()">Hapus</button>
+        </div>
+
+        <!-- Tombol Bantuan WhatsApp -->
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <h4>Tentang Kami</h4>
+        <p>Fayy shop adalah web toko top up manual, didirikan oleh saya sendiri, web ini masih dalam masa perkembangan, jika menemukan bug mohon harap di maklumi, kami akan terus mengembangkan web ini ke titik tertinggi dengan tampilan yang lebih keren dari pada web sekarang, terimakasih.<br><br>-Fayy Shop.</p>
+    </footer>
+
 </body>
 </html>
